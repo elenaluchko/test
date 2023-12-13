@@ -1,0 +1,6 @@
+.header_logo {
+    width: calc(231rem/17.28);
+    display: flex;
+    padding-top: calc(25rem/17.28);
+
+}

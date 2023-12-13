@@ -1,0 +1,174 @@
+@import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+
+html {
+    font-size: 1vw;
+}
+
+
+
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+    margin: 0;
+}
+
+.logo {
+    width: 100%;
+}
+
+main {
+    padding-left: calc(120rem/17.28);
+    padding-right: calc(120rem/17.28);
+}
+
+.hero_title {
+    width: calc(1111rem/17.28);
+}
+
+.hero_title h1 {
+    font-size: calc(96rem/17.28);
+    line-height: 117.708%;
+    font-weight: 410;
+}
+
+.hero_captions {
+    display: flex;
+    flex-direction: row;
+    column-gap: calc(20rem/17.28);
+    padding-top: calc(70rem/17.28);
+    padding-bottom: calc(47rem/17.28);
+}
+
+.hero_caption {
+    width: calc(231rem/17.28);
+}
+
+.hero_description {
+    width: calc(1111rem/17.28);
+    font-size: calc(60rem/17.28);
+    line-height: 113.333%;
+    margin-bottom: calc(64rem/17.28);
+}
+
+.hero_h3 {
+    font-size: calc(60rem/17.28);
+    line-height: 113.3%;
+    font-weight: 410;
+
+}
+
+.hero_button {
+    margin-bottom: calc(156rem/17.28);
+}
+
+.button {
+    background-color: #DEFC36;
+    border-radius: calc(30rem/17.28);
+    border-width: 0;
+    height: calc(60rem/17.28);
+    padding: 0 calc(60rem/17.28);
+
+    font-size: calc(20rem/17.28);
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: background-color 0.3s ease-in;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 47%, rgba(41,49,96,1) 100%);
+    color:white;
+}
+
+.line {
+    height: 2px;
+    background-color: #1e1e1e;
+}
+
+.angebot_section {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.angebot_title {
+    width: calc(628rem/17.28);
+    padding-top: calc(62rem/17.28);
+}
+
+.angebot_h2 {
+    font-size: calc(120rem/17.28);
+    font-weight: 410;
+    line-height: 108.333%;
+    
+    position: sticky;
+    top: calc(50rem/17.28);
+}
+
+.angebot_h2:hover {
+    animation: hinge;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.angebot_list {
+    width: calc(831rem/17.28);
+
+}
+
+.angebot_item {
+    position: sticky;
+    top: calc(50rem/17.28);
+
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    column-gap: calc(90rem/17.28);
+    border-bottom: 2px solid #1e1e1e;
+    padding-top: calc(62rem/17.28);
+    padding-bottom: calc(102rem/17.28);
+
+    background-color: aliceblue;
+
+}
+
+.angebot_item:last-child {
+    border-bottom: 0px;
+}
+
+.angebot_number {
+    font-size: calc(20rem/17.28);
+    font-weight: 410;
+    line-height: 128.571%;
+    letter-spacing: 0.14px;
+}
+
+.angebot_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.angebot_subtitle {
+    font-size: calc(60rem/17.28);
+    font-weight: 410;
+    line-height: 113.333%;
+}
+
+.angebot_description {
+    font-size: calc(28rem/17.28);
+
+    font-weight: 410;
+    line-height: 128.571%;
+    letter-spacing: 0.14px;
+
+    padding: calc(38rem/17.28) 0 calc(68rem/17.28) 0;
+}
+
+.angebot_button {
+    width: calc(285rem/17.28);
+}

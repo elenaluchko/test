@@ -1,0 +1,12 @@
+.header_list {
+    display: flex;
+    flex-direction: row;
+    padding-top: calc(21rem/17.28);
+    column-gap: calc(56rem/17.28);
+    list-style: none;
+
+    font-size: calc(18rem/17.28);
+    margin: 0;
+    font-size: calc(18rem/17.28);
+    line-height: 133.333%;
+}

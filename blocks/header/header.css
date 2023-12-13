@@ -1,0 +1,17 @@
+@import url(./_logo/header_logo.css);
+@import url(./_list/header_list.css);
+@import url(./_marque/header_marque.css);
+@import url(./_text/header_text.css);
+
+.header {
+    display: flex;
+    flex-direction: row;
+    column-gap: calc(562rem/17.28);
+    justify-content: space-between;
+    align-items: start;
+    padding-left: calc(120rem/17.28);
+    padding-right: calc(120rem/17.28);
+
+    height: calc(100rem/17.28);
+    color: #1e1e1e;
+}

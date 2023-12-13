@@ -2,11 +2,35 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
 html {
     font-size: 1vw;
 }
 
-
+body {
+    overflow-x: hidden;
+  }
 
 h1,
 h2,

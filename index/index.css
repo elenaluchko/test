@@ -1,28 +1,30 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/snowflakes/snowflakes.css);
+@import url(../blocks/marque/marque.css);
 
 
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: red; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
 
 html {
     font-size: 1vw;
@@ -30,7 +32,7 @@ html {
 
 body {
     overflow-x: hidden;
-  }
+}
 
 h1,
 h2,
@@ -40,6 +42,7 @@ li,
 p {
     margin: 0;
 }
+
 
 .logo {
     width: 100%;
@@ -103,9 +106,9 @@ main {
 
 .button:hover {
     transition: background-color 0.3s ease-in;
-    background: rgb(63,94,251);
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 47%, rgba(41,49,96,1) 100%);
-    color:white;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 47%, rgba(41, 49, 96, 1) 100%);
+    color: white;
 }
 
 .line {
@@ -128,7 +131,7 @@ main {
     font-size: calc(120rem/17.28);
     font-weight: 410;
     line-height: 108.333%;
-    
+
     position: sticky;
     top: calc(50rem/17.28);
 }

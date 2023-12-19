@@ -1,4 +1,6 @@
-.header_marque {
+@import url(_text/marque_text.css);
+
+.marque {
     height: 90px;
     width:100rem;
     margin:0 auto;
